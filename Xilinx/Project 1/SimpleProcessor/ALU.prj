@@ -1,0 +1,6 @@
+vhdl work "Subtractor.vhf"
+vhdl work "FullAdder.vhf"
+vhdl work "EightBitSubtractor.vhf"
+vhdl work "EightBitMux.vhf"
+vhdl work "EightBitAdder.vhf"
+vhdl work "ALU.vhf"

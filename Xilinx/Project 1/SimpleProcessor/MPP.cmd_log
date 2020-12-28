@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym MPP {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/MPP.sch} {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/MPP.sym} 
+xst -intstyle ise -ifn "C:/Users/Jared/Desktop/SimpleProcessor/MPP.xst" -ofn "C:/Users/Jared/Desktop/SimpleProcessor/MPP.syr" 
+xst -intstyle ise -ifn "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/MPP.xst" -ofn "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/MPP.syr" 

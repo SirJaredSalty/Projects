@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="EqualityComp_8">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-2-4T5:49:58</timestamp>
+    <pin polarity="Input" x="64" y="0" name="a(7:0)"/>
+    <pin polarity="Input" x="160" y="0" name="b(7:0)"/>
+    <pin polarity="Output" x="112" y="176" name="eq"/>
+    <graph>
+        <rect style="linewidth:W" width="216" x="4" y="64" height="68"/>
+        <line x2="64" y1="64" y2="0" x1="64"/>
+        <rect width="24" x="52" y="0" height="64"/>
+        <line x2="160" y1="0" y2="64" x1="160"/>
+        <rect width="32" x="144" y="0" height="64"/>
+        <line x2="112" y1="176" y2="132" x1="112"/>
+        <text style="fontsize:44;fontname:Arial" x="100" y="96">=</text>
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="92" y="96" type="pin a(7:0)"/>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="132" y="96" type="pin b(7:0)"/>
+    </graph>
+</symbol>

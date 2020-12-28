@@ -1,0 +1,53 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/ALU_ALU_sch_tb_isim_beh.exe -prj C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/ALU_ALU_sch_tb_beh.prj work.ALU_ALU_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/FullAdder.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/FullSubtractor.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/adder8.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/Shifter.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitXor.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitSubtractor.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitOr.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitMux.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitMultiplier.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitAnd.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitAdder.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/ALU.vhf" into library work
+Parsing VHDL file "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/ALU_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture xor2_v of entity XOR2 [xor2_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity FullSubtractor_MUSER_ALU [fullsubtractor_muser_alu_default]
+Compiling architecture behavioral of entity EightBitSubtractor_MUSER_ALU [eightbitsubtractor_muser_alu_def...]
+Compiling architecture m8_1e_hxilinx_alu_v of entity M8_1E_HXILINX_ALU [m8_1e_hxilinx_alu_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture behavioral of entity EightBitMux_MUSER_ALU [eightbitmux_muser_alu_default]
+Compiling architecture behavioral of entity EightBitXor_MUSER_ALU [eightbitxor_muser_alu_default]
+Compiling architecture behavioral of entity EightBitOr_MUSER_ALU [eightbitor_muser_alu_default]
+Compiling architecture behavioral of entity EightBitAnd_MUSER_ALU [eightbitand_muser_alu_default]
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture behavioral of entity Shifter_MUSER_ALU [shifter_muser_alu_default]
+Compiling architecture xor3_v of entity XOR3 [xor3_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture behavioral of entity FullAdder_MUSER_ALU [fulladder_muser_alu_default]
+Compiling architecture behavioral of entity EightBitAdder_MUSER_ALU [eightbitadder_muser_alu_default]
+Compiling architecture behavioral of entity adder8_MUSER_ALU [adder8_muser_alu_default]
+Compiling architecture behavioral of entity EightBitMultiplier_MUSER_ALU [eightbitmultiplier_muser_alu_def...]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity alu_alu_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 49 VHDL Units
+Built simulation executable C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/ALU_ALU_sch_tb_isim_beh.exe
+Fuse Memory Usage: 52684 KB
+Fuse CPU Usage: 1640 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Jared/Documents/GitHub/Projects/Xilinx/Project 2/GeneralPurposeProcessor_skeleton/ALU_ALU_sch_tb_isim_beh.exe" -prj "C:/Users/Jared/Documents/GitHub/Projects/Xilinx/Project 2/GeneralPurposeProcessor_skeleton/ALU_ALU_sch_tb_beh.prj" "work.ALU_ALU_sch_tb" 

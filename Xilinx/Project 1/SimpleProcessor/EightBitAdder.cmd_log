@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym EightBitAdder {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitAdder.sch} {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitAdder.sym} 
+xst -intstyle ise -ifn "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitAdder.xst" -ofn "C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/EightBitAdder.syr" 
+sch2sym -intstyle ise -family spartan6 -w -refsym EightBitAdder C:/Users/Jared/Desktop/SimpleProcessor/EightBitAdder.sch C:/Users/Jared/Desktop/SimpleProcessor/EightBitAdder.sym 

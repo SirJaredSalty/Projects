@@ -1,0 +1,11 @@
+MODULE MPPTestCircuit
+	SUBMODULE MPP
+		INSTANCE MPP_1
+	SUBMODULE Buf_4
+		INSTANCE bus_buf1
+	SUBMODULE synchronizer
+		INSTANCE btn_sync
+	SUBMODULE debouncer
+		INSTANCE dbnce1
+	SUBMODULE pulser
+		INSTANCE pulse1

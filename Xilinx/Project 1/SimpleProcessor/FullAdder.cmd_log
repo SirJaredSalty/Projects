@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym FullAdder {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/FullAdder.sch} {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/FullAdder.sym} 

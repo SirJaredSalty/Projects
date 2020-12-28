@@ -1,0 +1,30 @@
+Command line:
+   GPP_GPP_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49379
+
+Thu Oct 22 17:58:53 2020
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5162.59 Meg
+
+ Total Signals          : 3294
+ Total Nets             : 924
+ Total Signal Drivers   : 666
+ Total Blocks           : 699
+ Total Primitive Blocks : 596
+ Total Processes        : 666
+ Total Traceable Variables  : 61
+ Total Scalar Nets and Variables : 1455
+Total Line Count : 1032
+Total Line Count : 1032
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 5005.31 Meg
+
+Thu Oct 22 18:05:48 2020
+

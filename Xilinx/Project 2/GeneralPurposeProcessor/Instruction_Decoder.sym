@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Instruction_Decoder">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2019-11-8T17:5:25</timestamp>
+    <pin polarity="Input" x="0" y="-480" name="OPCODE(3:0)" />
+    <pin polarity="Output" x="512" y="-480" name="capture_C" />
+    <pin polarity="Output" x="512" y="-416" name="capture_Z" />
+    <pin polarity="Output" x="512" y="-352" name="capture_N" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="256" y="-520" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="80" y="-480" type="pin OPCODE(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-480" type="pin capture_C" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-416" type="pin capture_Z" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-352" type="pin capture_N" />
+        <rect width="384" x="64" y="-512" height="192" />
+        <line x2="512" y1="-480" y2="-480" x1="448" />
+        <line x2="512" y1="-416" y2="-416" x1="448" />
+        <line x2="512" y1="-352" y2="-352" x1="448" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <rect width="60" x="4" y="-488" height="16" />
+    </graph>
+</symbol>

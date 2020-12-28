@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/ugly/Google Drive/CMSC 313/Fall 2019/Project 3/Skeleton_v1/GeneralPurposeProcessor/RegFile_RegFile_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="regfile_regfile_sch_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/regfile_regfile_sch_tb/r_addr_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_addr_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr_a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/r_addr_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_addr_b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr_b[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/w_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/w_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">w_addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/w_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_enable</obj_property>
+      <obj_property name="ObjectShortName">w_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/r_data_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_data_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/r_data_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_data_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/in_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/in_wradd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_wradd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_wradd[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/in_radd_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_radd_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_radd_a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/in_radd_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_radd_b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_radd_b[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/write_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/UUT/r0_contents" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r0_contents[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r0_contents[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/UUT/r1_contents" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r1_contents[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_contents[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/UUT/r2_contents" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r2_contents[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_contents[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regfile_regfile_sch_tb/UUT/r3_contents" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r3_contents[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r3_contents[7:0]</obj_property>
+   </wvobject>
+</wave_config>

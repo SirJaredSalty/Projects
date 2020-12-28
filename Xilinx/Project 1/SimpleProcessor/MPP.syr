@@ -1,0 +1,678 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: MPP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MPP.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MPP"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : MPP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\FullAdder.vhf" into library work
+Parsing entity <FullAdder>.
+Parsing architecture <BEHAVIORAL> of entity <fulladder>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\FullSubtractor.vhf" into library work
+Parsing entity <FullSubtractor>.
+Parsing architecture <BEHAVIORAL> of entity <fullsubtractor>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\adder8.vhf" into library work
+Parsing entity <FullAdder_MUSER_adder8>.
+Parsing architecture <BEHAVIORAL> of entity <fulladder_muser_adder8>.
+Parsing entity <adder8>.
+Parsing architecture <BEHAVIORAL> of entity <adder8>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\Shifter.vhf" into library work
+Parsing entity <Shifter>.
+Parsing architecture <BEHAVIORAL> of entity <shifter>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitXor.vhf" into library work
+Parsing entity <EightBitXor>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitxor>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitSubtractor.vhf" into library work
+Parsing entity <FullSubtractor_MUSER_EightBitSubtractor>.
+Parsing architecture <BEHAVIORAL> of entity <fullsubtractor_muser_eightbitsubtractor>.
+Parsing entity <EightBitSubtractor>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitsubtractor>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitOr.vhf" into library work
+Parsing entity <EightBitOr>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitor>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitMux.vhf" into library work
+Parsing entity <M8_1E_HXILINX_EightBitMux>.
+Parsing architecture <M8_1E_HXILINX_EightBitMux_V> of entity <m8_1e_hxilinx_eightbitmux>.
+Parsing entity <EightBitMux>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitmux>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitMultiplier.vhf" into library work
+Parsing entity <FullAdder_MUSER_EightBitMultiplier>.
+Parsing architecture <BEHAVIORAL> of entity <fulladder_muser_eightbitmultiplier>.
+Parsing entity <adder8_MUSER_EightBitMultiplier>.
+Parsing architecture <BEHAVIORAL> of entity <adder8_muser_eightbitmultiplier>.
+Parsing entity <EightBitMultiplier>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitmultiplier>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitAnd.vhf" into library work
+Parsing entity <EightBitAnd>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitand>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\EightBitAdder.vhf" into library work
+Parsing entity <FullAdder_MUSER_EightBitAdder>.
+Parsing architecture <BEHAVIORAL> of entity <fulladder_muser_eightbitadder>.
+Parsing entity <EightBitAdder>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitadder>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\RegParallelLoad_8.vhd" into library work
+Parsing entity <RegParallelLoad_8>.
+Parsing architecture <Behavioral> of entity <regparallelload_8>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\Mux2_8.vhd" into library work
+Parsing entity <Mux2_8>.
+Parsing architecture <Behavioral> of entity <mux2_8>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\ALU.vhf" into library work
+Parsing entity <M8_1E_HXILINX_ALU>.
+Parsing architecture <M8_1E_HXILINX_ALU_V> of entity <m8_1e_hxilinx_alu>.
+Parsing entity <FullAdder_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <fulladder_muser_alu>.
+Parsing entity <adder8_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <adder8_muser_alu>.
+Parsing entity <EightBitMultiplier_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitmultiplier_muser_alu>.
+Parsing entity <EightBitAdder_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitadder_muser_alu>.
+Parsing entity <Shifter_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <shifter_muser_alu>.
+Parsing entity <EightBitAnd_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitand_muser_alu>.
+Parsing entity <EightBitOr_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitor_muser_alu>.
+Parsing entity <EightBitXor_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitxor_muser_alu>.
+Parsing entity <EightBitMux_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitmux_muser_alu>.
+Parsing entity <FullSubtractor_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <fullsubtractor_muser_alu>.
+Parsing entity <EightBitSubtractor_MUSER_ALU>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitsubtractor_muser_alu>.
+Parsing entity <ALU>.
+Parsing architecture <BEHAVIORAL> of entity <alu>.
+Parsing VHDL file "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" into library work
+Parsing entity <M8_1E_HXILINX_MPP>.
+Parsing architecture <M8_1E_HXILINX_MPP_V> of entity <m8_1e_hxilinx_mpp>.
+Parsing entity <FullAdder_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <fulladder_muser_mpp>.
+Parsing entity <adder8_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <adder8_muser_mpp>.
+Parsing entity <EightBitMultiplier_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitmultiplier_muser_mpp>.
+Parsing entity <EightBitAdder_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitadder_muser_mpp>.
+Parsing entity <Shifter_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <shifter_muser_mpp>.
+Parsing entity <EightBitAnd_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitand_muser_mpp>.
+Parsing entity <EightBitOr_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitor_muser_mpp>.
+Parsing entity <EightBitXor_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitxor_muser_mpp>.
+Parsing entity <EightBitMux_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitmux_muser_mpp>.
+Parsing entity <FullSubtractor_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <fullsubtractor_muser_mpp>.
+Parsing entity <EightBitSubtractor_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <eightbitsubtractor_muser_mpp>.
+Parsing entity <ALU_MUSER_MPP>.
+Parsing architecture <BEHAVIORAL> of entity <alu_muser_mpp>.
+Parsing entity <MPP>.
+Parsing architecture <BEHAVIORAL> of entity <mpp>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <ALU_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <EightBitSubtractor_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <FullSubtractor_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <EightBitMux_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <M8_1E_HXILINX_MPP> (architecture <M8_1E_HXILINX_MPP_V>) from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" Line 64. Case statement is complete. others clause is never selected
+
+Elaborating entity <EightBitXor_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <EightBitOr_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <EightBitAnd_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <Shifter_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <EightBitAdder_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <FullAdder_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <EightBitMultiplier_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <adder8_MUSER_MPP> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <Mux2_8> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <RegParallelLoad_8> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <MPP> synthesized.
+
+Synthesizing Unit <ALU_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 1814: Output port <Cout> of the instance <XLXI_25> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 1820: Output port <Cout> of the instance <XLXI_26> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <ALU_MUSER_MPP> synthesized.
+
+Synthesizing Unit <EightBitSubtractor_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 1682: Output port <Bout> of the instance <XLXI_24> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <EightBitSubtractor_MUSER_MPP> synthesized.
+
+Synthesizing Unit <FullSubtractor_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <FullSubtractor_MUSER_MPP> synthesized.
+
+Synthesizing Unit <EightBitMux_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Set property "HU_SET = XLXI_1_16" for instance <XLXI_1>.
+    Set property "HU_SET = XLXI_2_17" for instance <XLXI_2>.
+    Set property "HU_SET = XLXI_3_18" for instance <XLXI_3>.
+    Set property "HU_SET = XLXI_4_19" for instance <XLXI_4>.
+    Set property "HU_SET = XLXI_5_20" for instance <XLXI_5>.
+    Set property "HU_SET = XLXI_6_21" for instance <XLXI_6>.
+    Set property "HU_SET = XLXI_7_22" for instance <XLXI_7>.
+    Set property "HU_SET = XLXI_8_23" for instance <XLXI_8>.
+    Summary:
+	no macro.
+Unit <EightBitMux_MUSER_MPP> synthesized.
+
+Synthesizing Unit <M8_1E_HXILINX_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Found 1-bit 8-to-1 multiplexer for signal <S2_D7_Mux_0_o> created at line 55.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <M8_1E_HXILINX_MPP> synthesized.
+
+Synthesizing Unit <EightBitXor_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <EightBitXor_MUSER_MPP> synthesized.
+
+Synthesizing Unit <EightBitOr_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <EightBitOr_MUSER_MPP> synthesized.
+
+Synthesizing Unit <EightBitAnd_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <EightBitAnd_MUSER_MPP> synthesized.
+
+Synthesizing Unit <Shifter_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+WARNING:Xst:647 - Input <B<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Shifter_MUSER_MPP> synthesized.
+
+Synthesizing Unit <EightBitAdder_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <EightBitAdder_MUSER_MPP> synthesized.
+
+Synthesizing Unit <FullAdder_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <FullAdder_MUSER_MPP> synthesized.
+
+Synthesizing Unit <EightBitMultiplier_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum1> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum2> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum3> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum4> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum5> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum6> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf" line 888: Output port <Sum7> of the instance <XLXI_523> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <EightBitMultiplier_MUSER_MPP> synthesized.
+
+Synthesizing Unit <adder8_MUSER_MPP>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\MPP.vhf".
+    Summary:
+	no macro.
+Unit <adder8_MUSER_MPP> synthesized.
+
+Synthesizing Unit <Mux2_8>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\Mux2_8.vhd".
+        BusWidth = 8
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <Mux2_8> synthesized.
+
+Synthesizing Unit <RegParallelLoad_8>.
+    Related source file is "C:\Users\Jared\Desktop\School\UMBC\Fall 2020\CMSC 313\Xilinx Projects\Project 1\SimpleProcessor\RegParallelLoad_8.vhd".
+        BusWidth = 8
+    Found 8-bit register for signal <q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <RegParallelLoad_8> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 8-to-1 multiplexer                              : 8
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 8-to-1 multiplexer                              : 8
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU_MUSER_MPP> ...
+
+Optimizing unit <adder8_MUSER_MPP> ...
+
+Optimizing unit <EightBitMux_MUSER_MPP> ...
+
+Optimizing unit <RegParallelLoad_8> ...
+
+Optimizing unit <MPP> ...
+
+Optimizing unit <M8_1E_HXILINX_MPP> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MPP, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MPP.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 504
+#      AND2                        : 280
+#      BUF                         : 7
+#      GND                         : 1
+#      INV                         : 16
+#      LUT3                        : 8
+#      LUT6                        : 16
+#      MUXF7                       : 8
+#      OR2                         : 16
+#      OR3                         : 64
+#      XOR2                        : 24
+#      XOR3                        : 64
+# FlipFlops/Latches                : 8
+#      FDE                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 13
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               8  out of  11440     0%  
+ Number of Slice LUTs:                   40  out of   5720     0%  
+    Number used as Logic:                40  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     48
+   Number with an unused Flip Flop:      40  out of     48    83%  
+   Number with an unused LUT:             8  out of     48    16%  
+   Number of fully used LUT-FF pairs:     0  out of     48     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    102    21%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 27.064ns (Maximum Frequency: 36.949MHz)
+   Minimum input arrival time before clock: 27.820ns
+   Maximum output required time after clock: 4.067ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 27.064ns (frequency: 36.949MHz)
+  Total number of paths / destination ports: 77327 / 8
+-------------------------------------------------------------------------
+Delay:               27.064ns (Levels of Logic = 24)
+  Source:            Parallel_Load_Reg/q[7]_dff_1_1 (FF)
+  Destination:       Parallel_Load_Reg/q[7]_dff_1_7 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: Parallel_Load_Reg/q[7]_dff_1_1 to Parallel_Load_Reg/q[7]_dff_1_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             18   0.447   1.050  Parallel_Load_Reg/q[7]_dff_1_1 (Parallel_Load_Reg/q[7]_dff_1_1)
+     LUT3:I2->O           18   0.205   1.414  OPERAND_SELECT/Mmux_o21 (XLXN_8<1>)
+     AND2:I0->O            3   0.203   1.015  CORE_ALU/XLXI_26/XLXI_39 (CORE_ALU/XLXI_26/A0B1)
+     AND2:I0->O            1   0.203   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_34/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_34/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_34/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_7)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_33/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_33/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_33/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_8)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_32/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_32/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_32/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_9)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_30/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_30/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_30/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_147)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_29/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_29/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_29/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_23)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_27/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_27/XLXN_23)
+     OR3:I1->O             3   0.223   1.015  CORE_ALU/XLXI_26/XLXI_549/XLXI_27/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_27)
+     XOR3:I0->O            3   0.203   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_26/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1413)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_518/XLXI_27/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1516)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_519/XLXI_29/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1525)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_520/XLXI_30/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1550)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_521/XLXI_32/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1576)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_522/XLXI_33/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1602)
+     XOR3:I1->O            1   0.223   0.580  CORE_ALU/XLXI_26/XLXI_523/XLXI_34/XLXI_1 (CORE_ALU/XLXN_70<7>)
+     begin scope: 'CORE_ALU/XLXI_10/XLXI_7:D7'
+     LUT6:I5->O            1   0.205   0.000  Mmux_S2_D7_Mux_0_o_3 (Mmux_S2_D7_Mux_0_o_3)
+     MUXF7:I1->O           1   0.140   0.000  Mmux_S2_D7_Mux_0_o_2_f7 (O)
+     end scope: 'CORE_ALU/XLXI_10/XLXI_7:O'
+     FDE:D                     0.102          Parallel_Load_Reg/q[7]_dff_1_7
+    ----------------------------------------
+    Total                     27.064ns (5.499ns logic, 21.565ns route)
+                                       (20.3% logic, 79.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 77390 / 16
+-------------------------------------------------------------------------
+Offset:              27.820ns (Levels of Logic = 25)
+  Source:            OPERAND (PAD)
+  Destination:       Parallel_Load_Reg/q[7]_dff_1_7 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: OPERAND to Parallel_Load_Reg/q[7]_dff_1_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   1.031  OPERAND_IBUF (OPERAND_IBUF)
+     LUT3:I0->O           18   0.205   1.414  OPERAND_SELECT/Mmux_o21 (XLXN_8<1>)
+     AND2:I0->O            3   0.203   1.015  CORE_ALU/XLXI_26/XLXI_39 (CORE_ALU/XLXI_26/A0B1)
+     AND2:I0->O            1   0.203   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_34/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_34/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_34/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_7)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_33/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_33/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_33/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_8)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_32/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_32/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_32/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_9)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_30/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_30/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_30/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_147)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_29/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_29/XLXN_23)
+     OR3:I1->O             3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_29/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_23)
+     AND2:I1->O            1   0.223   0.924  CORE_ALU/XLXI_26/XLXI_549/XLXI_27/XLXI_3 (CORE_ALU/XLXI_26/XLXI_549/XLXI_27/XLXN_23)
+     OR3:I1->O             3   0.223   1.015  CORE_ALU/XLXI_26/XLXI_549/XLXI_27/XLXI_5 (CORE_ALU/XLXI_26/XLXI_549/XLXN_27)
+     XOR3:I0->O            3   0.203   0.995  CORE_ALU/XLXI_26/XLXI_549/XLXI_26/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1413)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_518/XLXI_27/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1516)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_519/XLXI_29/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1525)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_520/XLXI_30/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1550)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_521/XLXI_32/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1576)
+     XOR3:I1->O            3   0.223   0.995  CORE_ALU/XLXI_26/XLXI_522/XLXI_33/XLXI_1 (CORE_ALU/XLXI_26/XLXN_1602)
+     XOR3:I1->O            1   0.223   0.580  CORE_ALU/XLXI_26/XLXI_523/XLXI_34/XLXI_1 (CORE_ALU/XLXN_70<7>)
+     begin scope: 'CORE_ALU/XLXI_10/XLXI_7:D7'
+     LUT6:I5->O            1   0.205   0.000  Mmux_S2_D7_Mux_0_o_3 (Mmux_S2_D7_Mux_0_o_3)
+     MUXF7:I1->O           1   0.140   0.000  Mmux_S2_D7_Mux_0_o_2_f7 (O)
+     end scope: 'CORE_ALU/XLXI_10/XLXI_7:O'
+     FDE:D                     0.102          Parallel_Load_Reg/q[7]_dff_1_7
+    ----------------------------------------
+    Total                     27.820ns (6.274ns logic, 21.546ns route)
+                                       (22.6% logic, 77.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.067ns (Levels of Logic = 1)
+  Source:            Parallel_Load_Reg/q[7]_dff_1_7 (FF)
+  Destination:       OUTPUT<7> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: Parallel_Load_Reg/q[7]_dff_1_7 to OUTPUT<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             18   0.447   1.049  Parallel_Load_Reg/q[7]_dff_1_7 (Parallel_Load_Reg/q[7]_dff_1_7)
+     OBUF:I->O                 2.571          OUTPUT_7_OBUF (OUTPUT<7>)
+    ----------------------------------------
+    Total                      4.067ns (3.018ns logic, 1.049ns route)
+                                       (74.2% logic, 25.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   27.064|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.26 secs
+ 
+--> 
+
+Total memory usage is 4518432 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

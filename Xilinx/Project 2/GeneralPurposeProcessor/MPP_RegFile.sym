@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MPP_RegFile">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-2-25T3:41:49</timestamp>
+    <pin polarity="Input" x="0" y="80" name="clk" />
+    <pin polarity="Input" x="0" y="-224" name="Input(7:0)" />
+    <pin polarity="Output" x="496" y="144" name="Current_Instruction(3:0)" />
+    <pin polarity="Output" x="496" y="208" name="Instruction(8:0)" />
+    <pin polarity="Output" x="496" y="272" name="ALU_Result(7:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="244" y="-268" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="80" y="-224" type="pin Input(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="144" type="pin Current_Instruction(3:0)" />
+        <rect width="64" x="432" y="132" height="24" />
+        <line x2="496" y1="144" y2="144" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="208" type="pin Instruction(8:0)" />
+        <rect width="64" x="432" y="196" height="24" />
+        <line x2="496" y1="208" y2="208" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="272" type="pin ALU_Result(7:0)" />
+        <rect width="64" x="432" y="260" height="24" />
+        <line x2="496" y1="272" y2="272" x1="432" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <line x2="0" y1="80" y2="80" x1="64" />
+        <rect width="368" x="64" y="-256" height="548" />
+    </graph>
+</symbol>

@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym adder8 C:/Users/Jared/Desktop/SimpleProcessor/adder8.sch C:/Users/Jared/Desktop/SimpleProcessor/adder8.sym 
+xst -intstyle ise -ifn "C:/Users/Jared/Desktop/SimpleProcessor/adder8.xst" -ofn "C:/Users/Jared/Desktop/SimpleProcessor/adder8.syr" 

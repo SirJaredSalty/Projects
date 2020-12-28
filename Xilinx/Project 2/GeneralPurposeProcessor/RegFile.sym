@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="RegFile">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-2-12T3:39:36</timestamp>
+    <pin polarity="Input" x="0" y="80" name="R_addr_b(1:0)" />
+    <pin polarity="Input" x="0" y="32" name="R_addr_a(1:0)" />
+    <pin polarity="Input" x="0" y="304" name="clk" />
+    <pin polarity="Input" x="0" y="144" name="W_data(7:0)" />
+    <pin polarity="Input" x="0" y="192" name="W_addr(1:0)" />
+    <pin polarity="Input" x="0" y="240" name="W_enable" />
+    <pin polarity="Output" x="368" y="32" name="R_data_a(7:0)" />
+    <pin polarity="Output" x="368" y="80" name="R_data_b(7:0)" />
+    <graph>
+        <rect style="linewidth:W" width="272" x="48" y="12" height="316" />
+        <text style="fontsize:36;fontname:Arial" x="56" y="304">&gt;</text>
+        <rect width="48" x="0" y="72" height="16" />
+        <line x2="48" y1="80" y2="80" x1="0" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="160" y="80" type="pin R_addr_b(1:0)" />
+        <rect width="48" x="0" y="24" height="16" />
+        <line x2="48" y1="32" y2="32" x1="0" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="160" y="32" type="pin R_addr_a(1:0)" />
+        <line x2="48" y1="304" y2="304" x1="0" />
+        <rect width="48" x="0" y="136" height="16" />
+        <line x2="48" y1="144" y2="144" x1="0" />
+        <attrtext attrname="PinName" x="56" y="144" type="pin W_data(7:0)" />
+        <rect width="48" x="0" y="184" height="16" />
+        <line x2="48" y1="192" y2="192" x1="0" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="144" y="192" type="pin W_addr(1:0)" />
+        <line x2="48" y1="240" y2="240" x1="0" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="128" y="240" type="pin W_enable" />
+        <rect width="48" x="320" y="24" height="16" />
+        <line x2="368" y1="32" y2="32" x1="320" />
+        <rect width="48" x="320" y="72" height="16" />
+        <line x2="368" y1="80" y2="80" x1="320" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="308" y="80" type="pin R_data_b(7:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="308" y="32" type="pin R_data_a(7:0)" />
+        <line x2="176" y1="112" y2="112" x1="52" />
+        <line x2="48" y1="272" y2="272" x1="176" />
+        <line x2="176" y1="12" y2="328" x1="176" />
+        <attrtext style="fontsize:44;fontname:Arial" attrname="SymbolName" x="44" y="-12" type="symbol" />
+    </graph>
+</symbol>

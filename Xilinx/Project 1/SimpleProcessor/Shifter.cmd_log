@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Shifter {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/Shifter.sch} {C:/Users/Jared/Desktop/School/UMBC/Fall 2020/CMSC 313/Xilinx Projects/Project 1/SimpleProcessor/Shifter.sym} 

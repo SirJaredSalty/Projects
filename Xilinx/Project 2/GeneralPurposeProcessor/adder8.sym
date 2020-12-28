@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="adder8">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2020-10-6T19:1:1</timestamp>
+    <pin polarity="Input" x="0" y="-976" name="A0" />
+    <pin polarity="Input" x="0" y="-912" name="B0" />
+    <pin polarity="Input" x="0" y="-848" name="A1" />
+    <pin polarity="Input" x="0" y="-144" name="B6" />
+    <pin polarity="Input" x="0" y="-16" name="B7" />
+    <pin polarity="Input" x="0" y="-272" name="B5" />
+    <pin polarity="Input" x="0" y="-400" name="B4" />
+    <pin polarity="Input" x="0" y="-528" name="B3" />
+    <pin polarity="Input" x="0" y="-656" name="B2" />
+    <pin polarity="Input" x="0" y="-784" name="B1" />
+    <pin polarity="Input" x="0" y="-720" name="A2" />
+    <pin polarity="Input" x="0" y="-592" name="A3" />
+    <pin polarity="Input" x="0" y="-464" name="A4" />
+    <pin polarity="Input" x="0" y="-336" name="A5" />
+    <pin polarity="Input" x="0" y="-208" name="A6" />
+    <pin polarity="Input" x="0" y="-80" name="A7" />
+    <pin polarity="Output" x="400" y="-272" name="Sum6" />
+    <pin polarity="Output" x="400" y="-16" name="Cout" />
+    <pin polarity="Output" x="400" y="-144" name="Sum7" />
+    <pin polarity="Output" x="400" y="-400" name="Sum5" />
+    <pin polarity="Output" x="400" y="-528" name="Sum4" />
+    <pin polarity="Output" x="400" y="-656" name="Sum3" />
+    <pin polarity="Output" x="400" y="-784" name="Sum2" />
+    <pin polarity="Output" x="400" y="-976" name="Sum0" />
+    <pin polarity="Output" x="400" y="-912" name="Sum1" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-1032" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-272" type="pin Sum6" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-976" type="pin A0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-912" type="pin B0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-848" type="pin A1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-144" type="pin B6" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-272" type="pin B5" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-400" type="pin B4" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-528" type="pin B3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-656" type="pin B2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-784" type="pin B1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-720" type="pin A2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-592" type="pin A3" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-464" type="pin A4" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-336" type="pin A5" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-208" type="pin A6" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="88" y="-80" type="pin A7" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="84" y="-16" type="pin B7" />
+        <line x2="0" y1="-976" y2="-976" x1="64" />
+        <line x2="0" y1="-912" y2="-912" x1="64" />
+        <line x2="0" y1="-848" y2="-848" x1="64" />
+        <line x2="0" y1="-784" y2="-784" x1="64" />
+        <line x2="0" y1="-656" y2="-656" x1="64" />
+        <line x2="0" y1="-528" y2="-528" x1="64" />
+        <line x2="0" y1="-400" y2="-400" x1="64" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <line x2="0" y1="-144" y2="-144" x1="64" />
+        <line x2="0" y1="-16" y2="-16" x1="64" />
+        <line x2="0" y1="-720" y2="-720" x1="64" />
+        <line x2="0" y1="-592" y2="-592" x1="64" />
+        <line x2="0" y1="-464" y2="-464" x1="64" />
+        <line x2="0" y1="-336" y2="-336" x1="64" />
+        <line x2="0" y1="-208" y2="-208" x1="64" />
+        <line x2="0" y1="-80" y2="-80" x1="64" />
+        <rect width="256" x="72" y="-1008" height="1008" />
+        <line x2="400" y1="-272" y2="-272" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="300" y="-16" type="pin Cout" />
+        <line x2="336" y1="-16" y2="-16" x1="400" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-144" type="pin Sum7" />
+        <line x2="400" y1="-144" y2="-144" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-400" type="pin Sum5" />
+        <line x2="400" y1="-400" y2="-400" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-528" type="pin Sum4" />
+        <line x2="400" y1="-528" y2="-528" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-656" type="pin Sum3" />
+        <line x2="400" y1="-656" y2="-656" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-784" type="pin Sum2" />
+        <line x2="400" y1="-784" y2="-784" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-976" type="pin Sum0" />
+        <line x2="400" y1="-976" y2="-976" x1="336" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-912" type="pin Sum1" />
+        <line x2="400" y1="-912" y2="-912" x1="336" />
+    </graph>
+</symbol>
